@@ -6,15 +6,22 @@ const theme = createTheme({
   cssVariables: true,
   palette: {
     primary: {
-      main: "#556cd6",
+      light: '#FF7F48',
+      dark: '#E75517',
+      main: "#E75517D1",
     },
     secondary: {
-      main: "#19857b",
+      main: "#222222",
     },
     error: {
       main: red.A400,
     },
   },
+  typography:{
+    allVariants:{
+      textTransform: 'none'  
+    }
+  }
 });
 
 export default theme;
